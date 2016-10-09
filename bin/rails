@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # This command will automatically be run when you run "rails" with Rails 4 gems installed from the root of your application.
+puts "Calling 'rails' from inside the blorgh/bin folder"
 
 ENGINE_ROOT = File.expand_path('../..', __FILE__)
 ENGINE_PATH = File.expand_path('../../lib/blorgh/engine', __FILE__)
