@@ -1,8 +1,10 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+require 'pry'
 
 Bundler.require(*Rails.groups)
+
 require "blorgh"
 
 module Dummy
@@ -23,4 +25,3 @@ module Dummy
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
-
